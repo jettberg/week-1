@@ -72,3 +72,13 @@ console.log('The animals are now', animalArray);
 
 // TODO: Remove the food at the beginning of your array & 
 //       log both the food removed and the updated array
+
+
+
+
+
+
+
+
+
+// i finished this page in a different commit 
