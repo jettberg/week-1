@@ -49,6 +49,11 @@ console.log('Some stars:');
 for (let i=0; i < stars.length; i++) {
   console.log(stars(i))
 }
+// just getting it down in a format that i understand so i can better understand how to convert it
+
+for (let i of stars) {
+  console.log(i);
+}
 
 
 // 3. While loops  
@@ -56,9 +61,31 @@ console.log('---- 3. While loop ----');
 
 // TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+let j = stars;
+do {
+  console.log[j];
+  j++;
+} while(j<4)
+
+  // is this still considered a while loop even if i am using the 'do' command?
 
 // TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
+let k=1;
+
+while(k<6) {
+  console.log(k);
+  k++;
+}
+
+// or is this the way that it is meant to be done?
+
 
 // TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+let i =10;
+
+while(i > 4) {
+  console.log(i);
+  i--;
+}
